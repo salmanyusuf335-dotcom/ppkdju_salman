@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:salman_ppkdju_app/tugas_flutter/Tugas4_Flutter.dart';
+import 'package:salman_ppkdju_app/tugas_flutter/Tugas5_Flutter.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blueGrey),
       ),
-      home: const Tugas4_Flutter(), // Ganti 'App' dengan nama kelas yang benar dari file penataangrid.dart(),
+      home: const Tugas5_Flutter(), // Ganti 'App' dengan nama kelas yang benar dari file penataangrid.dart(),
     );
   }
 }
